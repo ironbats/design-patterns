@@ -20,11 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08b1ac83-8bb8-441c-8f67-7e634f3b54be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/templatemethod/ChamaTemplateMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/templatemethod/Imposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/templatemethod/Imposto01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/templatemethod/Imposto02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/templatemethod/TemplateMethodImposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/builder/ItemDataNota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/builder/NFEBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/builder/NotaFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/builder/TestaNotaFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/ChamaImpostos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/ICMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/ICPP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/IPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/ISS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/Imposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/Orcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/Aprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/ChamaPatternState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/EmAprovacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/EstadoOrcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/Finalizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/Orcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/Reprovado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,19 +70,52 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.patterns.state" />
+      <recent name="br.com.patterns.decorator" />
       <recent name="br.com.patterns.chainresponsability" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.patterns.builder" />
+      <recent name="br.com.patterns.state" />
+      <recent name="br.com.patterns.decorator" />
       <recent name="br.com.patterns.templatemethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChamaTemplateMethod">
+  <component name="RunManager" selected="Application.TestaNotaFiscal">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="ChamaImpostos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.patterns.decorator.ChamaImpostos" />
+      <module name="design-patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.patterns.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChamaPatternState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.patterns.state.ChamaPatternState" />
+      <module name="design-patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.patterns.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ChamaTemplateMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.patterns.templatemethod.ChamaTemplateMethod" />
@@ -92,6 +138,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.patterns.chainresponsability.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaNotaFiscal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.patterns.builder.TestaNotaFiscal" />
+      <module name="design-patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.patterns.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,6 +192,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaNotaFiscal" />
+        <item itemvalue="Application.ChamaPatternState" />
+        <item itemvalue="Application.ChamaImpostos" />
         <item itemvalue="Application.ChamaTemplateMethod" />
         <item itemvalue="Application.Promocao" />
       </list>
@@ -160,16 +223,59 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2721" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1594177771238">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="801" y="281" width="553" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1594603986473">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="801" y="281" width="553" height="585" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594603986473" />
     <state x="2721" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594177771238" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1594178140188">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="718" y="287" key="#xdebugger.evaluate" timestamp="1594600315915">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594178140188" />
+    <state x="718" y="287" key="#xdebugger.evaluate/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594600315915" />
+    <state width="1874" height="286" key="GridCell.Tab.0.bottom" timestamp="1594604417920">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="286" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594604417920" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
+    <state width="1874" height="286" key="GridCell.Tab.0.center" timestamp="1594604417920">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="286" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594604417920" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
+    <state width="1874" height="286" key="GridCell.Tab.0.left" timestamp="1594604417920">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="286" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594604417920" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
+    <state width="1874" height="286" key="GridCell.Tab.0.right" timestamp="1594604417920">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="286" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594604417920" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom" timestamp="1594600486756">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594600486756" />
+    <state width="1874" height="344" key="GridCell.Tab.1.center" timestamp="1594600486756">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594600486756" />
+    <state width="1874" height="344" key="GridCell.Tab.1.left" timestamp="1594600486756">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594600486756" />
+    <state width="1874" height="344" key="GridCell.Tab.1.right" timestamp="1594600486756">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="344" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594600486756" />
+    <state width="498" height="435" key="SwitcherDM" timestamp="1594599082605">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="498" height="435" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594599082605" />
+    <state width="498" height="446" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594178295413" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -213,6 +319,16 @@
           <url>file://$PROJECT_DIR$/src/br/com/patterns/chainresponsability/SemDesconto.java</url>
           <line>9</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/patterns/decorator/ISS.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/patterns/decorator/ChamaImpostos.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
