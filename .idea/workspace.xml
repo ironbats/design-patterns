@@ -20,24 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08b1ac83-8bb8-441c-8f67-7e634f3b54be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/builder/ItemDataNota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/builder/NFEBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/builder/NotaFiscal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/builder/TestaNotaFiscal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/ChamaImpostos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/ICMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/ICPP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/IPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/ISS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/Imposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/decorator/Orcamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/Aprovado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/ChamaPatternState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/EmAprovacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/EstadoOrcamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/Finalizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/Orcamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/state/Reprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/AcaoNotaFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/ChamaObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/EnviaEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/EnviaSMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/ImprimeNOTA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/NFEBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/SaveDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/BRASIL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/CHINA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/ChamaStrategyCountry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/ENGLAND.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/FRANCE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/RUSSIAN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/USA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.patterns.observer" />
       <recent name="br.com.patterns.state" />
       <recent name="br.com.patterns.decorator" />
       <recent name="br.com.patterns.chainresponsability" />
@@ -81,7 +79,7 @@
       <recent name="br.com.patterns.templatemethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestaNotaFiscal">
+  <component name="RunManager" selected="Application.ChamaStrategyCountry">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -103,6 +101,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChamaObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.patterns.observer.ChamaObserver" />
+      <module name="design-patterns" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.patterns.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChamaPatternState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.patterns.state.ChamaPatternState" />
       <module name="design-patterns" />
@@ -117,27 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChamaTemplateMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.patterns.templatemethod.ChamaTemplateMethod" />
+    <configuration name="ChamaStrategyCountry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.patterns.strategy.ChamaStrategyCountry" />
       <module name="design-patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.patterns.templatemethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Promocao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.patterns.chainresponsability.Promocao" />
-      <module name="design-patterns" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.patterns.chainresponsability.*" />
+          <option name="PATTERN" value="br.com.patterns.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChamaStrategyCountry" />
+        <item itemvalue="Application.ChamaObserver" />
         <item itemvalue="Application.TestaNotaFiscal" />
         <item itemvalue="Application.ChamaPatternState" />
         <item itemvalue="Application.ChamaImpostos" />
-        <item itemvalue="Application.ChamaTemplateMethod" />
-        <item itemvalue="Application.Promocao" />
       </list>
     </recent_temporary>
   </component>
@@ -226,34 +224,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="801" y="281" width="553" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1594603986473">
+    <state x="801" y="281" width="553" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1594606997890">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="801" y="281" width="553" height="585" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594603986473" />
+    <state x="801" y="281" width="553" height="585" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594606997890" />
     <state x="2721" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594177771238" />
     <state x="718" y="287" key="#xdebugger.evaluate" timestamp="1594600315915">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="718" y="287" key="#xdebugger.evaluate/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594600315915" />
-    <state width="1874" height="286" key="GridCell.Tab.0.bottom" timestamp="1594604417920">
+    <state width="1874" height="286" key="GridCell.Tab.0.bottom" timestamp="1594607377639">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594604417920" />
+    <state width="1874" height="286" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594607377639" />
     <state width="1807" height="278" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
-    <state width="1874" height="286" key="GridCell.Tab.0.center" timestamp="1594604417920">
+    <state width="1874" height="286" key="GridCell.Tab.0.center" timestamp="1594607377638">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594604417920" />
+    <state width="1874" height="286" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594607377638" />
     <state width="1807" height="278" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
-    <state width="1874" height="286" key="GridCell.Tab.0.left" timestamp="1594604417920">
+    <state width="1874" height="286" key="GridCell.Tab.0.left" timestamp="1594607377638">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594604417920" />
+    <state width="1874" height="286" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594607377638" />
     <state width="1807" height="278" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
-    <state width="1874" height="286" key="GridCell.Tab.0.right" timestamp="1594604417920">
+    <state width="1874" height="286" key="GridCell.Tab.0.right" timestamp="1594607377639">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594604417920" />
+    <state width="1874" height="286" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594607377639" />
     <state width="1807" height="278" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
     <state width="1874" height="344" key="GridCell.Tab.1.bottom" timestamp="1594600486756">
       <screen x="0" y="27" width="1920" height="1053" />
