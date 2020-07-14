@@ -20,22 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08b1ac83-8bb8-441c-8f67-7e634f3b54be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/AcaoNotaFiscal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/ChamaObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/EnviaEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/EnviaSMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/ImprimeNOTA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/NFEBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/observer/SaveDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/BRASIL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/CHINA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/ChamaStrategyCountry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/ENGLAND.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/FRANCE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/RUSSIAN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/strategy/USA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfugue_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/jfugue-4.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/flyweight/ChamaMusicas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/flyweight/Do.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/flyweight/Fa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/flyweight/Mi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/flyweight/Notas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/flyweight/Piano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/flyweight/Re.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/flyweight/Sol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/patterns/flyweight/TocaPiano.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design-patterns.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +57,33 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.patterns.flyweight" />
       <recent name="br.com.patterns.observer" />
       <recent name="br.com.patterns.state" />
       <recent name="br.com.patterns.decorator" />
       <recent name="br.com.patterns.chainresponsability" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.patterns.flyweight" />
       <recent name="br.com.patterns.builder" />
       <recent name="br.com.patterns.state" />
       <recent name="br.com.patterns.decorator" />
       <recent name="br.com.patterns.templatemethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChamaStrategyCountry">
+  <component name="RunManager" selected="Application.ChamaMusicas">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -87,13 +91,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="ChamaImpostos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.patterns.decorator.ChamaImpostos" />
+    <configuration name="ChamaMusicas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.patterns.flyweight.ChamaMusicas" />
       <module name="design-patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.patterns.decorator.*" />
+          <option name="PATTERN" value="br.com.patterns.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChamaMusicas" />
         <item itemvalue="Application.ChamaStrategyCountry" />
         <item itemvalue="Application.ChamaObserver" />
         <item itemvalue="Application.TestaNotaFiscal" />
         <item itemvalue="Application.ChamaPatternState" />
-        <item itemvalue="Application.ChamaImpostos" />
       </list>
     </recent_temporary>
   </component>
@@ -224,56 +228,68 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="801" y="281" width="553" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1594606997890">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="2721" y="260" width="553" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1594750961764">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="801" y="281" width="553" height="585" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594606997890" />
-    <state x="2721" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594177771238" />
+    <state x="2721" y="260" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594750961764" />
     <state x="718" y="287" key="#xdebugger.evaluate" timestamp="1594600315915">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="718" y="287" key="#xdebugger.evaluate/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594600315915" />
-    <state width="1874" height="286" key="GridCell.Tab.0.bottom" timestamp="1594607377639">
+    <state x="579" y="286" width="424" height="513" key="FileChooserDialogImpl" timestamp="1594611015424">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594607377639" />
+    <state x="579" y="286" width="424" height="513" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594611015424" />
+    <state width="1874" height="261" key="GridCell.Tab.0.bottom" timestamp="1594755823978">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="261" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594755823978" />
     <state width="1807" height="278" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
-    <state width="1874" height="286" key="GridCell.Tab.0.center" timestamp="1594607377638">
+    <state width="1874" height="261" key="GridCell.Tab.0.center" timestamp="1594755823978">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594607377638" />
+    <state width="1874" height="261" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594755823978" />
     <state width="1807" height="278" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
-    <state width="1874" height="286" key="GridCell.Tab.0.left" timestamp="1594607377638">
+    <state width="1874" height="261" key="GridCell.Tab.0.left" timestamp="1594755823978">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594607377638" />
+    <state width="1874" height="261" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594755823978" />
     <state width="1807" height="278" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
-    <state width="1874" height="286" key="GridCell.Tab.0.right" timestamp="1594607377639">
+    <state width="1874" height="261" key="GridCell.Tab.0.right" timestamp="1594755823978">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="286" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594607377639" />
+    <state width="1874" height="261" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594755823978" />
     <state width="1807" height="278" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594219362531" />
-    <state width="1874" height="344" key="GridCell.Tab.1.bottom" timestamp="1594600486756">
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom" timestamp="1594752680569">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="344" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594600486756" />
-    <state width="1874" height="344" key="GridCell.Tab.1.center" timestamp="1594600486756">
+    <state width="1874" height="344" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594752680569" />
+    <state width="1874" height="344" key="GridCell.Tab.1.center" timestamp="1594752680569">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="344" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594600486756" />
-    <state width="1874" height="344" key="GridCell.Tab.1.left" timestamp="1594600486756">
+    <state width="1874" height="344" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594752680569" />
+    <state width="1874" height="344" key="GridCell.Tab.1.left" timestamp="1594752680569">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="344" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594600486756" />
-    <state width="1874" height="344" key="GridCell.Tab.1.right" timestamp="1594600486756">
+    <state width="1874" height="344" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594752680569" />
+    <state width="1874" height="344" key="GridCell.Tab.1.right" timestamp="1594752680569">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="344" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594600486756" />
-    <state width="498" height="435" key="SwitcherDM" timestamp="1594599082605">
+    <state width="1874" height="344" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594752680569" />
+    <state x="449" y="174" key="SettingsEditor" timestamp="1594608968565">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="498" height="435" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594599082605" />
+    <state x="449" y="174" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594608968565" />
+    <state width="498" height="435" key="SwitcherDM" timestamp="1594755833537">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="498" height="435" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594755833537" />
     <state width="498" height="446" key="SwitcherDM/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1594178295413" />
+    <state x="110" y="269" width="1372" height="547" key="new project wizard" timestamp="1594610743296">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="110" y="269" width="1372" height="547" key="new project wizard/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1594610743296" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -327,6 +343,11 @@
           <url>file://$PROJECT_DIR$/src/br/com/patterns/decorator/ChamaImpostos.java</url>
           <line>12</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/patterns/flyweight/ChamaMusicas.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
