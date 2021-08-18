@@ -4,7 +4,6 @@ public class ChamaStrategyCountry {
 
     public static void main(String[] args) {
 
-
         final String country_code = "US";
         Country countryInterface  = null;
 
